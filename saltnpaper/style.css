@@ -1,0 +1,1190 @@
+.img{
+    height: 75px;
+    top: 6px;
+    width: 165px;
+    position: absolute;
+    left: 200px;
+ 
+ }
+ .fd{
+     width: 1550px;
+     height: auto;
+     margin-top: 20px;
+ }
+ .arrow-button {
+display: flex;
+color: #C2FFE9;
+background-color: red;
+padding: 10px 16px;
+border-radius: 20px;
+transition: all .3s ease;
+font-weight: bold;
+cursor: pointer;
+align-items: center;
+font-size: 14px;
+margin-top: -11px;
+
+}
+
+.arrow-button > .arrow {
+width: 6px;
+height: 6px;
+border-right: 2px solid #C2FFE9;
+border-bottom: 2px solid #C2FFE9;
+position: relative;
+transform: rotate(-45deg);
+margin: 0 6px;
+transition: all .3s ease;
+}
+
+.arrow-button > .arrow::before {
+display: block;
+background-color: currentColor;
+width: 3px;
+transform-origin: bottom right;
+height: 2px;
+position: absolute;
+opacity: 0;
+bottom: calc(-2px / 2);
+transform: rotate(45deg);
+transition: all .3s ease;
+content: "";
+right: 0;
+
+}
+
+.arrow-button:hover > .arrow {
+transform: rotate(-45deg) translate(4px, 4px);
+border-color: text-hover-color;
+}
+
+.arrow-button:hover > .arrow::before {
+opacity: 1;
+width: 8px;
+}
+
+.arrow-button:hover {
+background-color: grey;
+color: #fff;
+}
+ul {
+background-color: #0a0000;
+text-align: center;
+
+}
+li {
+float: right;
+}
+li {
+display: inline;
+
+}
+
+.head{
+background-color: black;
+height: 100px;;
+width: 1550px;
+margin-left: -20px;
+text-align: center;
+margin-top: -20px;
+}
+.head1{text-align: center;
+margin-right: 200px;}
+
+a {
+display: block;
+padding-left: 50px;
+padding-top:40px;
+text-align: center;
+text-decoration: none;
+color: white;
+background-color: #050000;
+}
+.arrow-button1 {
+display: flex;
+color: #C2FFE9;
+background-color:black;
+padding: 10px 16px;
+border-radius: 20px;
+transition: all .3s ease;
+font-weight: bold;
+cursor: pointer;
+align-items: center;
+font-size: 14px;
+margin-top: -10px;
+margin-left: 30px;
+}
+@font-face {
+font-family:'KeaniaOne';
+src: url(../saltnpaper/fonts/KeaniaOne-Regular.ttf);
+}
+@font-face {
+font-family:'Montserrat';
+src: url(../saltnpaper/fonts/Montserrat-VariableFont_wght.ttf);
+}
+.second_heading {
+font-family:'Montserrat';
+font-style: normal;
+text-align: center;
+background-color: black;
+font-size: 38px;
+color: white;
+position: absolute;
+width: 102%;
+top: 709px;
+
+}
+.fo{
+font-family:'KeaniaOne';
+font-style: normal;
+font-weight: 400;
+font-size: 52px;
+line-height: 62px;
+color: #FFFFFF;
+}
+.heading_p{
+font-family:'Montserrat';
+font-style: normal;
+text-align: center;
+background-color: black;
+font-size: 15px;
+color: rgba(255, 255, 255, 0.7);
+
+}
+.firstpic{
+background-color: black;
+padding-right:320px;
+padding-bottom:300px;
+}
+.btn1{
+font-size: 14px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 50px;
+color: white;
+background-color: black;
+padding: 16px 47px;
+position: absolute;
+top: 450px;
+left: 418px;
+}
+.btn2{
+font-size: 14px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 50px;
+color: white;
+background-color: black;
+padding: 16px 47px;
+position: absolute;
+top: 450px;
+left: 730px;
+}
+.btn3{
+font-size: 14px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 50px;
+color: white;
+background-color: black;
+padding: 16px 47px;
+position: absolute;
+top: 450px;
+left: 1015px;
+}
+.backimg{
+position: relative;
+padding-left: 1100px;
+padding-top: 40px;
+background-color:rgba(255, 255, 255, 0.06);
+height: 1300px;
+}
+.pic1{
+position: absolute;
+top: 270px;
+left:760px;
+}
+.fe{
+font-family:'KeaniaOne';
+font-style: normal;
+font-weight: 400;
+font-size: 52px;
+line-height: 62px;
+color: #FFFFFF;
+position: absolute;
+left: 550px;   
+}
+.fs{
+font-family:'KeaniaOne';
+font-style: normal;
+font-weight: 400;
+font-size: 52px;
+line-height: 62px;
+color: #FFFFFF;
+position: absolute;
+top: 110px;
+left: 450px; 
+
+}
+.fh{
+font-family:'Montserrat';
+font-style: normal;
+text-align: center;
+font-size: 15px;
+color: rgba(255, 255, 255, 0.7);
+position: absolute;
+top: 190px;
+left: 360px; 
+
+}
+.font1{
+font-family: 'apercu';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.48em;
+text-transform: uppercase;
+color: #ED1C24;
+position: absolute;
+top: 250px;
+left: 150px; 
+}
+.font2{
+font-family:'KeaniaOne';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 62px;
+color: white;
+position: absolute;
+top: 268px;
+left: 145px;   
+}
+.font3{
+font-family:'Montserrat';
+font-style: normal;
+font-size: 37px;
+color: white;
+position: absolute;
+top: 278px;
+left: 385PX;
+}
+.font4{
+font-family:'Montserrat';
+font-style: normal;
+text-align: center;
+font-size: 15px;
+color: rgba(255, 255, 255, 0.7);
+position: absolute;
+top: 340px;
+left: 150px; 
+}
+.font5{
+font-family:'Montserrat';
+font-style: normal;
+text-align: center;
+font-size: 15px;
+color: rgba(255, 255, 255, 0.7);
+position: absolute;
+top: 370px;
+left: 150px; 
+}
+.pic2{
+position: absolute;
+top: 610px;
+left:145px;
+}
+.dr{
+    font-size: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    color: white;
+    background-color: transparent;
+    padding: 16px 47px;
+    position: absolute;
+    top: 430px;
+    left: 150px; 
+    }
+ .dr2{
+    font-size: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    color: white;
+    background-color: transparent;
+    padding: 16px 47px;
+    position: absolute;
+    top: 790px;
+    left: 750px;
+    height: 30px;
+    width: 140px;
+   
+ }
+    
+    #i2{
+        font-size: 18px;
+        background-color: #FFFFFF;
+        color: red;
+        width: 15px;
+        height: 15px;
+        padding: 8px 8px;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+   #i1{
+    margin-right: 3px;
+   }
+   .font6{
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    position: absolute;
+    top: 610px;
+    left: 750px; 
+    }
+    .font7{
+    font-family:'KeaniaOne';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 62px;
+    color: white;
+    position: absolute;
+    top: 628px;
+    left: 745px;   
+    }
+    .font8{
+    font-family:'Montserrat';
+    font-style: normal;
+    font-size: 37px;
+    color: white;
+    position: absolute;
+    top: 638px;
+    left: 985PX;
+    }
+    .font9{
+    font-family:'Montserrat';
+    font-style: normal;
+    text-align: center;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 700px;
+    left: 750px; 
+    }
+    .font10{
+    font-family:'Montserrat';
+    font-style: normal;
+    text-align: center;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 730px;
+    left: 750px; 
+    }
+#i3{
+    font-size: 18px;
+        background-color: #FFFFFF;
+        color: red;
+        width: 15px;
+        height: 15px;
+        padding: 8px 8px;
+        border-radius: 50%;
+        margin-left: 10px;
+       
+        
+}
+.font11{
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    position: absolute;
+    top: 950px;
+    left: 150px; 
+    }
+    .font12{
+    font-family:'KeaniaOne';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 62px;
+    color: white;
+    position: absolute;
+    top: 968px;
+    left: 145px;   
+    }
+    .font13{
+    font-family:'Montserrat';
+    font-style: normal;
+    font-size: 37px;
+    color: white;
+    position: absolute;
+    top: 978px;
+    left: 385PX;
+    }
+    .font14{
+    font-family:'Montserrat';
+    font-style: normal;
+    text-align: center;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 1040px;
+    left: 150px; 
+    }
+    .font15{
+    font-family:'Montserrat';
+    font-style: normal;
+    text-align: center;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 1070px;
+    left: 150px; 
+    }
+    .dr3{
+        font-size: 13px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 50px;
+        color: white;
+        background-color: transparent;
+        padding: 16px 47px;
+        position: absolute;
+        top: 1125px;
+        left: 150px;
+        height: 30px;
+        width: 140px;
+       
+     }
+        
+        #i4{
+            font-size: 18px;
+            background-color: #FFFFFF;
+            color: red;
+            width: 15px;
+            height: 15px;
+            padding: 8px 8px;
+            border-radius: 50%;
+            margin-left: 10px;
+           
+            
+        }
+        .pic3{
+            position: absolute;
+            top: 950px;
+            left:760px;
+            }
+          .backimg3{
+            background-color: #050000;
+            height: 1700px;
+            width: 1550px;
+            margin-left: -1100px;
+            margin-top: 777px;
+          }
+          .fe2{
+            font-family:'KeaniaOne';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 52px;
+            line-height: 62px;
+            color: #FFFFFF;
+            text-align: center;
+           
+            }
+            .fs2{
+                font-family:'KeaniaOne';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 52px;
+                line-height: 62px;
+                color: #FFFFFF;
+                margin-top: 110px;
+                text-align: center;
+                }
+                .tb{
+                    margin-top: 50px;
+                    margin-left: 130px;
+                }
+                .tb,td{
+                    border-spacing: 30px;
+                }
+                .font16{
+                    font-family: 'apercu';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                    letter-spacing: 0.48em;
+                    text-transform: uppercase;
+                    color: #ED1C24;
+                   
+                   
+                    }
+                    .font17{
+                    font-family:'KeaniaOne';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 40px;
+                    line-height: 62px;
+                    color: white;
+                 
+                    }
+                    .font18{
+                    font-family:'KeaniaOne';
+                    font-style: normal;
+                    font-size: 37px;
+                    color: white;
+                 
+                    }
+                    .font19{
+                    font-family:'Montserrat';
+                    font-style: normal;
+                    text-align: center;
+                    font-size: 15px;
+                    color: rgba(255, 255, 255, 0.7);
+                 
+                    }
+                    .font20{
+                    font-family:'Montserrat';
+                    font-style: normal;
+                    text-align: center;
+                    font-size: 15px;
+                    color: rgba(255, 255, 255, 0.7);
+             
+                    }
+                    .dr4{
+                        font-size: 13px;
+                        border: 1px solid rgba(255, 255, 255, 0.3);
+                        border-radius: 50px;
+                        color: white;
+                        background-color: transparent;
+                        padding: 16px 47px;
+                   margin-left: 90PX;
+                        height: 30px;
+                        width: 140px;
+                        margin-top: 30PX;
+                       
+                     }
+                        
+                        #i5{
+                            font-size: 18px;
+                            background-color: #FFFFFF;
+                            color: red;
+                            width: 15px;
+                            height: 15px;
+                            padding: 8px 8px;
+                            border-radius: 50%;
+                            margin-left: 10px;
+                           
+                            
+                        }
+                        .tb1{
+                            margin-left: 315px;
+                        }
+                        .tb1,td{
+                            border-spacing: 50px;
+
+                        }
+                 .backimg4{
+                    
+                    background-color:rgb(32, 31, 31);
+                    height: 800px;
+                    width: 1550px;
+                    margin-left: -1100px
+                    
+                 }
+                 .parking{
+                  
+                    margin-right: 725px;
+                 }
+                 .park{
+                    
+                    margin-top: -400px;
+                    margin-left: 600px;
+        
+                 }
+                 .font26{
+                    font-family: 'apercu';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                    letter-spacing: 0.48em;
+                    text-transform: uppercase;
+                    color: #ED1C24;
+                    position: absolute;
+                   left: 850px;
+                   bottom: -2060px;
+                   
+                    }
+                    .font27{
+                    font-family:'KeaniaOne';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 40px;
+                    line-height: 62px;
+                    color: white;
+                    position: absolute;
+                   left: 850px;
+                   
+                 
+                    }
+                    .font28{
+                    font-family:'Montserrat';
+                    font-style: normal;
+                    font-size: 37px;
+                    color: white;
+                    position: absolute;
+                   left: 1100px;
+                   bottom: -2115px;
+                 
+                    }
+                    .font29{
+                    font-family:'Montserrat';
+                    font-style: normal;
+                 
+                    font-size: 15px;
+                    color: rgba(255, 255, 255, 0.7);
+                    position: absolute;
+                   left: 850px;
+                   bottom: -2160px;
+                 
+                    }
+                    .font30{
+                    font-family:'Montserrat';
+                    font-style: normal;
+                   
+                    font-size: 15px;
+                    color: rgba(255, 255, 255, 0.7);
+                    position: absolute;
+                    left: 850px;
+                    bottom: -2190px;
+                    }
+                    .dr5{
+                        font-size: 13px;
+                        border: 1px solid rgba(255, 255, 255, 0.3);
+                        border-radius: 50px;
+                        color: white;
+                        background-color:green;
+                        padding: 16px 47px;
+                   margin-left: 330PX;
+                        height: 30px;
+                        width: 140px;
+                        margin-top: 30PX;
+                        position: absolute;
+                        left: 520px ;
+                        
+                       
+                     }
+                        
+                        #i5{
+                            font-size: 18px;
+                            background-color: #FFFFFF;
+                            color: green;
+                            width: 15px;
+                            height: 15px;
+                            padding: 8px 8px;
+                            border-radius: 50%;
+                            margin-left: 10px;
+                        }
+                    
+                        .card{
+                            background-color: black;
+                            width: 100%;
+                            height: 100%;
+                            margin-top: 295px;
+                   
+                        }
+                        .font31{
+                            font-family:'KeaniaOne';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 52px;
+                            line-height: 62px;
+                            color: #FFFFFF;
+                            background-color: #050000;
+                            position: absolute;
+                            top: 3900px;
+                            left: 650px;
+                        }
+                        .font32{
+                            font-family:'KeaniaOne';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 52px;
+                            line-height: 62px;
+                            color: #FFFFFF;
+                            background-color: #050000;
+                            position: absolute;
+                            top: 3960px;
+                            left: 520px;
+                        }
+                        .font33{
+                            background-color: #050000;
+                            position: absolute;
+                            top: 3980px;
+                            left: 950px;
+                            font-size: 30px;
+                        }
+                        .card1{
+                            background: #FFFFFF;
+                            border-radius: 4px;
+                            text-align: center;
+                            padding: 25px 24px;
+                            margin: auto;
+                            margin-bottom: 32px;
+                            height: 13%;
+                            width: 20%;
+                            position: absolute;
+                            left: 200px;
+                            top: 4100px;
+
+                         }
+                        .cpic1{
+                            position: absolute;
+                            left: 150px;
+                            width: 2%;
+                        }
+                        .font34{
+                            font-family: 'Apercu';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 10px;
+                            line-height: 12px;
+                            letter-spacing: 0.48em;
+                            text-transform: uppercase;
+                            color: #ED1C24;
+                            margin-bottom: 8px;
+                            display: inline-block;
+                            position: absolute;
+                            top: 100PX;
+                            left: 110px;
+                        }
+                        .font35{
+                            position: absolute;
+                            color:black;
+                            font-weight: 600;
+                            margin-right: 8px;
+                            font-size: 24px;
+                            top: 115PX;
+                            left: 50px;
+                        }
+                        .font36{
+                            font-family: 'FuturaBlack BT';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 23px;
+                            line-height: 29px;
+                            text-align: center;
+                            color: #000000;
+                            position: absolute;
+                            top: 117PX;
+                            left: 225px;
+                        }
+                        .font37{
+                            font-family: 'FuturaBlack BT';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 23px;
+                            line-height: 29px;
+                            text-align: center;
+                            color: #000000;
+                            position: absolute;
+                            top: 145PX;
+                            left: 95px;
+                        }
+                        .card2{
+                            background: #FFFFFF;
+                            border-radius: 4px;
+                            text-align: center;
+                            padding: 25px 24px;
+                            margin: auto;
+                            margin-bottom: 32px;
+                            height: 13%;
+                            width: 20%;
+                            position: absolute;
+                            left: 600px;
+                            top: 4100px;
+                        }
+                        .font38{
+                            font-family: 'Apercu';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 10px;
+                            line-height: 12px;
+                            letter-spacing: 0.48em;
+                            text-transform: uppercase;
+                            color: #ED1C24;
+                            margin-bottom: 8px;
+                            display: inline-block;
+                            position: absolute;
+                            top: 100PX;
+                            left: 110px;
+                        }
+                        .font39{
+                            position: absolute;
+                            color:black;
+                            font-weight: 600;
+                            margin-right: 8px;
+                            font-size: 24px;
+                            top: 115PX;
+                            left: 50px;
+                        }
+                        .font40{
+                            font-family: 'FuturaBlack BT';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 23px;
+                            line-height: 29px;
+                            text-align: center;
+                            color: #000000;
+                            position: absolute;
+                            top: 117PX;
+                            left: 225px;
+                        }
+                        .font41{
+                            font-family: 'FuturaBlack BT';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 23px;
+                            line-height: 29px;
+                            text-align: center;
+                            color: #000000;
+                            position: absolute;
+                            top: 145PX;
+                            left: 95px;
+                        }
+                        .card3{
+                            background: #FFFFFF;
+                            border-radius: 4px;
+                            text-align: center;
+                            padding: 25px 24px;
+                            margin: auto;
+                            margin-bottom: 32px;
+                            height: 13%;
+                            width: 20%;
+                            position: absolute;
+                            left: 1000px;
+                            top: 4100px;
+                        }
+                        .font42{
+                            font-family: 'Apercu';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 10px;
+                            line-height: 12px;
+                            letter-spacing: 0.48em;
+                            text-transform: uppercase;
+                            color: #ED1C24;
+                            margin-bottom: 8px;
+                            display: inline-block;
+                            position: absolute;
+                            top: 100PX;
+                            left: 110px;
+                        }
+                        .font43{
+                            position: absolute;
+                            color:black;
+                            font-weight: 600;
+                            margin-right: 8px;
+                            font-size: 24px;
+                            top: 115PX;
+                            left: 50px;
+                        }
+                        .font44{
+                            font-family: 'FuturaBlack BT';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 23px;
+                            line-height: 29px;
+                            text-align: center;
+                            color: #000000;
+                            position: absolute;
+                            top: 117PX;
+                            left: 225px;
+                        }
+                        .font45{
+                            font-family: 'FuturaBlack BT';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 23px;
+                            line-height: 29px;
+                            text-align: center;
+                            color: #000000;
+                            position: absolute;
+                            top: 145PX;
+                            left: 95px;
+                        }
+                        .card4{
+                            background: #FFFFFF;
+                            border-radius: 4px;
+                            text-align: center;
+                            padding: 25px 24px;
+                            margin: auto;
+                            margin-bottom: 32px;
+                            height: 13%;
+                            width: 20%;
+                            position: absolute;
+                            left: 200px;
+                            top: 4370px;
+                        }
+                        .font46{
+                            font-family: 'Apercu';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 10px;
+                            line-height: 12px;
+                            letter-spacing: 0.48em;
+                            text-transform: uppercase;
+                            color: #ED1C24;
+                            margin-bottom: 8px;
+                            display: inline-block;
+                            position: absolute;
+                            top: 100PX;
+                            left: 110px;
+                        }
+                        .font47{
+                            position: absolute;
+                            color:black;
+                            font-weight: 600;
+                            margin-right: 8px;
+                            font-size: 24px;
+                            top: 115PX;
+                            left: 50px;
+                        }
+                        .font48{
+                            font-family: 'FuturaBlack BT';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 23px;
+                            line-height: 29px;
+                            text-align: center;
+                            color: #000000;
+                            position: absolute;
+                            top: 117PX;
+                            left: 225px;
+                        }
+                        .font49{
+                            font-family: 'FuturaBlack BT';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 23px;
+                            line-height: 29px;
+                            text-align: center;
+                            color: #000000;
+                            position: absolute;
+                            top: 145PX;
+                            left: 140px;
+                        }
+                        .card5{
+                            background: #FFFFFF;
+                            border-radius: 4px;
+                            text-align: center;
+                            padding: 25px 24px;
+                            margin: auto;
+                            margin-bottom: 32px;
+                            height: 13%;
+                            width: 20%;
+                            position: absolute;
+                            left: 600px;
+                            top: 4370px;
+                        }
+                        .card6{
+                            background: #FFFFFF;
+                            border-radius: 4px;
+                            text-align: center;
+                            padding: 25px 24px;
+                            margin: auto;
+                            margin-bottom: 32px;
+                            height: 13%;
+                            width: 20%;
+                            position: absolute;
+                            left: 1000px;
+                            top: 4370px;
+                        }
+                        .font50{
+                            font-family: 'FuturaBlack BT';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 23px;
+                            line-height: 29px;
+                            text-align: center;
+                            color: #000000;
+                            position: absolute;
+                            top: 145PX;
+                            left: 50px;
+                        }
+                        .sf{
+                            border-spacing: 20px;
+                            margin-top: -720px;
+                        }
+                        .card{
+                            height: 1500px;
+                        }
+                    .social{
+                        margin-bottom: 0px;
+                        padding-bottom: 0px;
+                        font-family: 'Butler';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 32px;
+                        line-height: 50px;
+                    }
+                    .footer{
+                        background-color:rgb(32, 31, 31);
+                        background-image: url(https://images-beta.tossdown.com/site/a4195117-d4ae-45d4-9088-21162bacdfb1.webp);
+                        background-repeat: no-repeat;
+                        background-position-x: 30px;
+                        background-position-y:60px ;
+                        margin-left: -1100px;
+                        margin-top: 1400px;
+                        }
+                        .pf1{
+                        width: 350px;
+                        color: white;
+                        margin-left: 80px;
+                        margin-top: -170px;
+                        }
+                        .ft{
+                        margin: 0px !important;
+                        padding-bottom: 24px;
+                        padding-right: 0px;
+                        text-align: left;
+                        font-family: 'Apercu';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 21px;
+                        letter-spacing: 0.03em;
+                        color: rgba(255, 255, 255, 0.7);
+                        }
+                        hr{
+                        
+                       border-top: 1px grey;
+                       margin-top: -20px;
+                        
+                        }
+                        .pf2{
+                        margin-left: 50px;
+                        margin-bottom: 200px;
+                        }
+                        .pfh{
+                        
+                        
+                        font-family: 'Butler';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #FFFFFF;
+                        }
+                        .ft1{
+                        margin: 0px !important;
+                        padding-bottom: 18px;
+                        padding-right: 0px;
+                        text-align: left;
+                        font-family: 'Apercu';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 21px;
+                        letter-spacing: 0.03em;
+                        color: rgba(255, 255, 255, 0.7);
+                        }
+                        .pf3{
+                        margin-left: 130px;
+                        margin-top: -120px;
+                        
+                        }
+                        .icons{}
+                        .footertable{
+                        margin-top: -65px;
+                        }
+                        .ft2{
+                        margin: 0px !important;
+                        padding-bottom: 18px;
+                        padding-right: 0px;
+                        text-align: left;
+                        font-family: 'Apercu';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 21px;
+                        letter-spacing: 0.03em;
+                        color: rgba(255, 255, 255, 0.7);
+                        }
+                        .pf4{
+                        margin-left: 50px;
+                        margin-top: -20px;
+                        
+                        }
+                        #fb{
+                        display: flex;
+                        align-items: center;
+                        font-size: medium;
+                      margin-left: 140px;
+                        justify-content: center;
+                        width: 40px;
+                        height: 40px;
+                        background: #ED1C24;
+                        color: #fff;
+                        border-radius: 50px;
+                        }
+                        #insta{
+                            font-size: medium;
+                        display: flex;
+                        align-items: center;
+                        margin-right: 8px;
+                        justify-content: center;
+                        width: 40px;
+                        height: 40px;
+                        background: #ED1C24;
+                        color: #fff;
+                        border-radius: 50px;
+                        margin-left: 190px;
+                        margin-top: -40px;
+                        }
+                        #twitter{
+                            font-size: medium;
+                            
+                        display: flex;
+                        align-items: center;
+                        margin-right: 8px;
+                        justify-content: center;
+                        width: 40px;
+                        height: 40px;
+                        background: #ED1C24;
+                        color: #fff;
+                        border-radius: 50px;
+                        margin-left: 240px;
+                        margin-top: -40px;
+                        }
+                        .hidden{
+                        visibility: hidden;
+                        }
+                        .fte{
+                        
+                        margin: 0px !important;
+                        
+                        padding-left: 1000px;
+                        text-align: left;
+                        font-family: 'Apercu';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 21px;
+                        letter-spacing: 0.03em;
+                        background-color:rgb(32, 31, 31);
+                        
+                        }
+                        
+                        
+  
+                        
