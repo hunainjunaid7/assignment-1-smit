@@ -11,5 +11,6 @@ assigment 5b https://hunain-ass-5b-smit.netlify.app/ <br>
 assignment 6 https://hunain-ass6-smit.netlify.app/ <br> 
 <h1> CSS </h1> <br>
 assignment 1 https://hunain-css-assignment1-smit.netlify.app/ <br>
+assignment 2 https://https://smit-ass2-css-saltbpepper.netlify.app/<br>
 
 
