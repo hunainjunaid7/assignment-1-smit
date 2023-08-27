@@ -1,0 +1,342 @@
+._10c831ef, .ced57a6e {
+    width: 3.2rem;
+    height: 2rem;
+    fill: #3a77ff;
+
+}
+.nav1,ul,li,a{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+.nav2,ul,li{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+.nav2 , li ,a{
+    display: inline;
+    text-decoration: none;
+    color: #002f34;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  
+}
+#olxblack{
+    margin-left: 20px;
+}
+.location{
+    position: relative;
+    margin-top: -47px;
+    margin-left: 150px;
+   
+}
+.loc{
+ 
+position: absolute;
+top: 10px;
+padding-left: 4px;
+}
+.loc2{
+ 
+ position: absolute;
+ top: 1px;
+ padding-left: 799px;
+width: 0px;
+
+
+ 
+
+ }
+.searchloc{
+    border: black solid;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 35px;
+    font-size: medium;
+   
+}
+.arrowdown{
+    position: absolute;
+    top:75px;
+    left: 350px;
+    
+}
+.location2{
+    position: relative;
+    margin-top: -60px;
+    margin-left: 400px;
+   
+}
+.searchloc2{
+    border: black solid;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 35px;
+    font-size: medium;
+    width: 800px;
+   
+}
+#sea{
+    fill: white;
+    border-radius: 5px 5px 0px 0px;
+}
+.login{
+    color: #002f34;
+    margin-top: -25px;
+    margin-left: 1250px;
+    
+}
+.nav3{
+    display: inline;
+    text-decoration: none;
+    border: white;
+    display: inline;
+   margin-left: 210px;
+    top: 135px;
+    position: absolute;
+}
+.nav3 li a{
+    font-size: small;
+    font-weight: lighter;
+}
+li a :hover
+{
+    color: #62e4f3;
+}
+.ul li {
+    display: inline;
+    text-decoration: none;
+
+}
+.ul a{
+    text-decoration: none;
+} 
+.mainimg{
+    text-align: center;
+    margin-left: 100px;
+}
+.arrowdown2{
+    margin-top: -15px;
+    margin-left: 160px;
+}
+.nav4{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-decoration: none;
+    position: relative;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.nav4 li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+.head1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 90px;
+}
+.table1{
+    position: absolute;
+    top:519px;
+    left:55px;
+    border-spacing: 40px;
+}
+.table1 tr td img {
+    width: 100px;
+    height: 100px;
+}
+.table1 tr td {
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-top: 500px;
+    left: 90px;
+}
+
+.table2{
+    margin-top: 450px;
+    margin-left: 60px;
+}
+.Mobileimg1{
+    width: 300px;
+    height: 150px;
+    border-radius: 5px  5px  0px 0px;
+}
+.Mobile1{
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-weight: bold;
+    border-radius: 10px  10px  0px 0px;
+}
+.Mobile1 p{
+    font-weight: lighter;
+    padding-left: 10px;
+}
+.Mobile1 h3{
+    padding-left: 10px;
+}
+.table2{
+    border-spacing: 20px;
+    margin-top: 200px;
+}
+.head3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-top: 820px;
+    left: 90px;
+}
+.head4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-top: 1100px;
+    left: 90px;
+}
+.head5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-top: 1400px;
+    left: 90px;
+}
+.head6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-top: 1700px;
+    left: 90px;
+}
+.table2 h3 .heart1{
+    position: absolute;
+}
+.table2 h3{
+    position: relative;
+}
+
+.th1{
+    text-transform: uppercase;
+    font-family: Roboto,Helvetica,sans-serif;
+    color: #002f34;
+    position: absolute;
+    margin-top: 4px;
+    left: 4px;
+ 
+}
+.tr1{
+    font-family: Roboto,Helvetica,sans-serif;
+    position: absolute;
+    margin-top: 4px;
+    left: 4px;
+ 
+    
+cursor: pointer;
+color: rgba(0,47,52,.64);
+font-size: 13px;
+}
+.th2{
+    text-transform: uppercase;
+    font-family: Roboto,Helvetica,sans-serif;
+    color: #002f34;
+    position: absolute;
+   
+    left: 250px;
+}
+.tr2{
+    font-family: Roboto,Helvetica,sans-serif;
+    position: absolute;
+   
+    left: 250px;
+cursor: pointer;
+color: rgba(0,47,52,.64);
+font-size: 13px;
+}
+.th3{
+    text-transform: uppercase;
+    font-family: Roboto,Helvetica,sans-serif;
+    color: #002f34;
+    position: absolute;
+   
+    left: 500px;
+}
+.tr3{
+    font-family: Roboto,Helvetica,sans-serif;
+    position: absolute;
+    left: 500px;
+cursor: pointer;
+color: rgba(0,47,52,.64);
+font-size: 13px;
+}
+.th4{
+    text-transform: uppercase;
+    font-family: Roboto,Helvetica,sans-serif;
+    color: #002f34;
+    position: absolute;
+    
+    left: 700px;
+}
+.tr4{
+    font-family: Roboto,Helvetica,sans-serif;
+    position: absolute;
+    left: 700px;
+cursor: pointer;
+color: rgba(0,47,52,.64);
+font-size: 13px;
+}
+.th5{
+    text-transform: uppercase;
+    font-family: Roboto,Helvetica,sans-serif;
+    color: #002f34;
+    position: absolute;
+   
+    left: 930px;
+}
+.icon1{
+    position: absolute;
+    margin-top: 40px;
+    left: 930px;
+}
+.icon2{
+    position: absolute;
+    margin-top: 40px;
+   
+    left: 970px;
+}
+.icon3{
+    position: absolute;
+    margin-top: 40px;
+   
+    left: 1010px;
+}
+.icon4{
+    position: absolute;
+   margin-top: 40px;
+    left: 1050px;
+}
+.icon5{
+    position: absolute;
+  margin-top: 75px;
+    left: 930px;
+}
+.icon6{
+    position: absolute;
+    margin-top: 75px;
+    left: 1020px;
+}
+.icon7{
+    position: absolute;
+ margin-top: 75px;
+    left: 1110px;
+}
+.footer{
+background-color: #ebeeef;
+height: 160px;
+margin-left: 60px;
+
+}
