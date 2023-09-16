@@ -1,0 +1,473 @@
+.div1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+   height: 100px;
+    background: #0025ff;
+    }
+    .nav1{
+        position: absolute;
+        left: 170px;
+        top: 15px;
+    font-family: impact;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 400;
+    white-space: nowrap;
+    color: white;
+    overflow: hidden;
+    }
+    .nav2{
+        position: absolute;
+        left: 500px;
+        top: 15px;
+    font-family: impact;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 400;
+    white-space: nowrap;
+    color: white;
+    display: inline-block;
+    overflow: hidden;
+    }
+    .nav4{
+        position: absolute;
+        left: 350px;
+        top: 15px;
+    font-family: impact;
+    font-size: 20px;
+    cursor: pointer;
+   
+    white-space: nowrap;
+    color: white;
+    display: inline-block;
+    overflow: hidden;
+    }
+
+    .animate__animated{
+         position: absolute;
+        top: 10px;
+        left: 40px;
+    }
+    .animate__animated:hover{
+        
+        animation:heartBeat;
+  animation-duration: 2s;
+  animation-play-state: running;
+
+    }
+
+    @media only screen and (max-width:843px)  {
+        .nav4{
+            visibility: hidden;
+        }
+        .nav2{
+            visibility: hidden;
+        }
+        .nav3{
+            visibility: hidden;
+        }
+        .nav1{
+           margin-left: 200px;
+        }
+        .div1{
+        width: 100%;
+     }
+       
+    }
+    @media only screen and (max-width:400px)  {
+        
+     .div1{
+        width: 100%;
+     }
+        .nav1{
+           margin-left: 1px;
+        }
+    }
+
+
+    .nav3{
+        display: inline-block;
+    font-size: 18px;
+    height: 2.3em;
+    padding: 0.5em 1.85em;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: impact;
+}
+.p1:hover{
+    background-color: #fff;
+    color: #0025ff;
+  
+}
+.p1:hover{
+    animation: headShake;
+    animation-duration: 3s;
+}
+.p1{
+    border: #fff 2px solid;
+    border-radius: 1.8em;
+    padding: 5px 20px 5px 20px;
+    position: absolute;
+    right: 40px;
+
+   
+}
+.div2{
+    background-color: black;
+   position: absolute;
+   top: 950px;
+   left: 0px;
+   width: 100%;
+   height: 500px;
+   
+  
+}
+.div2 h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    font-size: 100px;
+}
+@media only screen and (max-width:540px)  {
+        
+        .div2 h1{
+            font-size: 70px;
+        }
+       }
+       @media only screen and (max-width:376px)  {
+        
+        .div2 h1{
+            font-size: 55px;
+        }
+       }
+       @media only screen and (max-width:293px)  {
+        
+        .div2 h1{
+            font-size: 45px;
+        }
+       }
+.div2 h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    font-size: large;
+    font-size: 60px;
+   margin-top: -92px;
+}
+@media only screen and (max-width:540px)  {
+        
+        .div2 h2{
+            font-size: 60px;
+            margin-top: -60px;
+        }
+       }
+       @media only screen and (max-width:376px)  {
+        
+        .div2 h2{
+            font-size: 55px;
+            margin-top: -48px;
+        }
+       }
+       @media only screen and (max-width:293px)  {
+        
+        .div2 h2{
+            font-size: 45px;
+            margin-top: -35px;
+        }
+       }
+.h3{
+ 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    background-color: #0025ff;
+    height: 100px;
+    width: 600px;
+    text-align: center;
+    margin-left: 480px;
+    font-size: large;
+    font-size: 70px;
+}
+@media only screen and (max-width:1100px)  {
+        
+        .h3{
+            margin-left: 200px;
+            
+        }
+       }
+       @media only screen and (max-width:955px)  {
+        
+        .h3{
+            margin-top:-60px;
+            
+        }
+       }
+       @media only screen and (max-width:817px)  {
+        
+        .h3{
+            margin-left: 100px;
+            
+        }
+       }
+       @media only screen and (max-width:817px)  {
+        
+        .h3{
+            margin-left: 20px;
+            
+        }
+       }
+       @media only screen and (max-width:817px)  {
+        
+        .h3{
+            margin-left: 0px;
+            
+        }
+       }
+       @media only screen and (max-width:540px)  {
+        
+        .h3{
+            font-size: 50px;
+            margin-left: 40px;
+            width: 400px;
+            height: 85px;
+        }
+       }
+       @media only screen and (max-width:455px)  {
+        
+        .h3{
+            font-size: 50px;
+            margin-left: 10px;
+            height: 85px;
+        }
+       }
+       @media only screen and (max-width:415px)  {
+        
+        .h3{
+            font-size: 50px;
+            margin-left: 0px;
+            height: 85px;
+        }
+       }
+       @media only screen and (max-width:376px)  {
+        
+        .h3{
+            font-size: 35px;
+            margin-left: 15px;
+            height: 55px;
+            margin-top: -10px;
+            width: 300px;
+        }
+       }
+       @media only screen and (max-width:293px)  {
+        
+        .h3{
+            font-size: 25px;
+            margin-left: 20px;
+            height: 45px;
+            margin-top: 0px;
+            width: 200px;
+        }
+       }
+video{
+    
+    position: absolute;
+    left: 0px;
+    top: 100px;
+
+  width: 100%;
+   
+}
+@media only screen and (max-width:1285.60px)
+{
+    .main{
+   
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: -140px;
+   left: 0px;
+  }
+   
+}
+@media only screen and (max-width:1285.60px)
+{
+    .main{
+   
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: -140px;
+   left: 0px;
+  }
+   
+}
+@media only screen and (max-width:1000px)
+{
+    .main{
+   
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: -340px;
+   left: 0px;
+  }
+   
+}
+@media only screen and (max-width:800px)
+{
+    .main{
+   
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: -440px;
+   left: 0px;
+  }
+   
+}
+@media only screen and (max-width:600px)
+{
+    .main{
+   
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: -540px;
+   left: 0px;
+  }
+   
+}
+@media only screen and (max-width:400px)
+{
+    .main{
+   
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: -640px;
+   left: 0px;
+  }
+   
+}
+@media only screen and (max-width:300px)
+{
+    .main{
+   
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: -695px;
+   left: 0px;
+  }
+   
+}
+@media only screen and (max-width:200px)
+{
+    .main{
+   
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: -795px;
+   left: 0px;
+  }
+   
+}
+.pic2{
+    position: absolute;
+    top: 1450px;
+left: 0px;
+}
+.div3{
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 2250px;
+    left: 0px;
+}
+.div3 h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    font-size: 100px;
+}
+.div3 h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #0025ff;
+
+    font-size: large;
+    font-size: 60px;
+   margin-top: -92px;
+
+}
+.div3 h3{ text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    font-size: 100px;
+   color: #fff;
+   margin-top: -72px;
+
+}
+.div3 h3 span{
+    color: #0025ff;
+}
+.pic3{
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top:2680px;
+    left: 0;
+}
+.pic4{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top:3480px;
+    left: 0;
+}
+.div4 h1{ text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    font-size: 80px;
+    color: #0025ff;
+    margin-top: 10px;
+    
+
+}
+.div4{
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 4050px;
+    left: 0px;
+   
+}
+.social__item-image{
+    width: 200px;
+    height: 200px;
+
+}
+.div5{
+    display: flex;
+    justify-content: center;
+   margin-top: -30px;
+   flex-wrap: wrap;
+ 
+}
+.div6{
+    border: #0025ff solid;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.div6 a:hover{
+    
+    animation-duration: 2s;
+}
