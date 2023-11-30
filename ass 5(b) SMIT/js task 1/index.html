@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var username = prompt("Enter UserName")
+        var email = prompt("Enter email")
+        var password = prompt("Enter password")
+        var confirmpassword = prompt("Enter confirmpassword")
+        if(username == "" || email == "" || password == "" || confirmpassword == "")
+        {
+            alert("Input Field cannot Be empty")
+
+        }
+        else{
+            if (password==confirmpassword)
+            {
+                alert("You have successfully regestered")
+            }
+            else{
+                alert("password should be same")
+            }
+           
+        }
+        
+    </script>
+    
+</body>
+</html>
