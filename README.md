@@ -19,6 +19,7 @@ assigment 6 https://hunain-smit-figma-design.netlify.app <br>
 <h1> JAVA SCRIPT </h1> <br>
 assigment 2 https://hunain-js-ass2.netlify.app <br>
 assigment 3 http://hunain-js-ass3.netlify.app <br>
+Task 1 hunain-js-task1-smit.netlify.app <br>
 
 
 
